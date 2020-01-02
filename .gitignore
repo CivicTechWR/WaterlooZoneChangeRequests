@@ -1,0 +1,4 @@
+# GH pages ignore rules
+frontend/
+backend/
+reddit-bot/
