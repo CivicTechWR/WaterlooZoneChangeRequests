@@ -46,7 +46,7 @@ function footer() {
       >
       <Grid item className="githubInformation">
         <GitHubIcon></GitHubIcon>
-        <a href="https://github.com/marcojrfurtado/WaterlooZoneChangeRequests/">WaterlooZoneChangeRequests</a>
+        <a href="https://github.com/CivicTechWR/WaterlooZoneChangeRequests/">WaterlooZoneChangeRequests</a>
       </Grid>
       <Grid item className="redditInformation">
         <RedditIcon></RedditIcon>
