@@ -9,7 +9,7 @@ Fortunately, the City of Waterloo already publishes much of this information in 
 
 * [Backend](backend/README.md) : Server providing cache of zoning data obtained from the City of Waterloo;
 
-* [Frontend](frontend/README.md) : React App containing an alternative map view of active zoning change requests. See it in action [here](https://marcojrfurtado.github.io/WaterlooZoneChangeRequests/);
+* [Frontend](frontend/README.md) : React App containing an alternative map view of active zoning change requests. See it in action [here](https://CivicTechWR.github.io/WaterlooZoneChangeRequests/);
 
 * [Reddit Bot](reddit-bot/README.md): Updates [/r/WaterlooZoneChanges/](https://www.reddit.com/r/WaterlooZoneChanges/) with any new zoning change requests;
 

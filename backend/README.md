@@ -2,6 +2,10 @@
 
 This subdirectory contains the Node.JS backend server responsible for scraping, and caching, [zone change requests](https://www.waterloo.ca/en/government/zone-changes.aspx) from the City of Waterloo. 
 
+## Requirements
+
+* `Node.JS >= v12`
+
 ## Installing dependencies
 
 Before starting the server, please ensure you have all dependencies, by running `npm install`.
