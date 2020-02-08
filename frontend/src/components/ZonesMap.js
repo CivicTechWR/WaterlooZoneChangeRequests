@@ -15,8 +15,8 @@ const styles = theme => ({
     fontSize: 24,
   },
   mapContainer: {
-    minWidth: "800px",
-    minHeight: "600px"
+    width: "800px",
+    height: "800px"
   }
 });
 
