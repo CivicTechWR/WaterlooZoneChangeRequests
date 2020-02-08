@@ -20,6 +20,15 @@ const styles = theme => ({
   }
 });
 
+const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibWFyY29qcmZ1cnRhZG8iLCJhIjoiY2s2ZHlzamIxMXNqdjNncWozOTJmdzZzZSJ9.yrrQycmV2A8bSe6ZyyfEug'
+const mapbox = (mapboxId, accessToken) => (x, y, z, dpr) => {
+  return `https://api.mapbox.com/styles/v1/mapbox/${mapboxId}/tiles/256/${z}/${x}/${y}${dpr >= 2 ? '@2x' : ''}?access_token=${accessToken}`
+}
+
+const providers = {
+  streets: mapbox('streets-v10', MAPBOX_ACCESS_TOKEN)
+}
+
 class ZonesMap extends Component {
 
   constructor(props) {
@@ -70,6 +79,7 @@ class ZonesMap extends Component {
         <Grid container direction="row" spacing={2}>
           <Grid item className={classes.mapContainer}>
             <Map 
+              provider={providers['streets']}
               center={cityOfWaterlooCoordinates} 
               zoom={13}>
               {
